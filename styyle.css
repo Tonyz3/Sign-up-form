@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 100%;
+    font-size: 20px;
+    background-image:url(img/water-4267390_1920\ A.jpg);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgba(0, 102, 255, 0.747);
+}
+
+.section{
+    width: 600px;
+    height: 550px;
+    box-shadow: #333 10px solid;
+    border-radius: 30px;
+    /* background-color: rgb(173, 196, 216); */
+    margin: 20px auto;
+    padding: 40px;
+    border: none;
+    backdrop-filter: blur(10px);
+}
+.form{
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+.fieldset{
+    border: none;
+}
+input{
+    width: 100%;
+    border: 2px solid rgba(0, 102, 255, 0.747);
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+input:hover,
+input:focus{
+    border: 0.8px solid rgba(0, 102, 255, 0.39);
+}
+:any-link{
+    text-decoration: none;
+    color: #000;
+}
+a:hover,
+a:active{
+    color: rgba(0, 102, 255, 0.747);
+}
+a::before{
+    content: "";
+    background-color: #333;
+    width: 25%;
+    height: 3px;
+    position: absolute;
+    top: 10px;
+
+}
+.data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgba(129, 174, 238, 0.397);
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+}
+button:active,
+button:hover{
+    background-color: #333;
+}
+svg{
+    width: 50px;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+}
+.icon-container{
+    display: flex;
+    padding: -150px;
+    justify-content: space-evenly;
+}
